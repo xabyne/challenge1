@@ -9,11 +9,11 @@ var chart = new Chart(ctx, {
         datasets: [{
             label: "Verbruikte brandstof",
             backgroundColor: 'rgb(216, 216, 216, 0.5)',
-            borderColor: 'rgb(76, 0, 117)',
+            borderColor: 'rgba(76, 0, 117)',
             data: brandstof,
         },
           {  label: "Verbruikte stuwstof",
-            backgroundColor: 'rgb(235, 206, 255, 0.5)',
+            backgroundColor: 'rgba(235, 206, 255, 0.5)',
             borderColor: 'rgb(0, 0, 0)',
             data: stuwstof,
         }] //hoe dit eruitziet, blijft bij elke grafiek hetzelfde, je verandert eigelijk alleen je "type".
