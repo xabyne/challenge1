@@ -71,6 +71,7 @@ var chart = new Chart(ctx, {
 });
 
 var ctx = document.getElementById('myChart3').getContext('2d');
+var voorraad = [25, 40, 10, 35, 50, 30, 45];
 var chart = new Chart(ctx, {
    
     type: 'bar', 
@@ -89,7 +90,7 @@ var chart = new Chart(ctx, {
                 'rgb(152, 85, 186)'],
             // pointBackgroundColor: Color[rgb(0,0,0)],
             
-            data: [25, 40, 10, 35, 50, 30, 45],
+            data: voorraad,
         }] 
     },
 
@@ -118,6 +119,7 @@ var chart = new Chart(ctx, {
 });
 
 var ctx = document.getElementById('myChart4').getContext('2d');
+var bemanning = [57, 28, 15];
 var chart = new Chart(ctx, {
     
     type: 'doughnut', 
@@ -131,7 +133,7 @@ var chart = new Chart(ctx, {
                 'rgb(149, 136, 155)',
                 'rgb(48, 47, 48)',
             ],
-            data: [57, 28, 15],
+            data: bemanning,
         }] 
 
     },

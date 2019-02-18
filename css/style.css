@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet");
 
 body{
-/*	background-color: #e6ebf2;
-*/	background: linear-gradient(to right, black, #3c0059);
+	background: linear-gradient(to right, black, #3c0059);
 	font-family: Titillium Web; 
 }
 
