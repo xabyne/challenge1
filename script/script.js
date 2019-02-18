@@ -8,8 +8,8 @@ var chart = new Chart(ctx, {
         labels: ["8.00", "10.00", "12.00", "14.00", "16.00", "18.00", "20.00"],
         datasets: [{
             label: "Verbruikte brandstof",
-            backgroundColor: 'rgb(216, 216, 216, 0.5)',
-            borderColor: 'rgba(76, 0, 117)',
+            backgroundColor: 'rgba(216, 216, 216, 0.5)',
+            borderColor: 'rgb(76, 0, 117)',
             data: brandstof,
         },
           {  label: "Verbruikte stuwstof",
