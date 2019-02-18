@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>SpaceX</title>
+		<link type="text/css" href="css/style.css" rel="stylesheet" />
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+	</head>
+	<body>
+		<div class="grid-container">
+
+			<div class="grid-item header">
+				<img srcset="images/spacex.jpg" id="logo">
+			</div>
+
+			<div class="grid-item box1">
+				<h1>Voertuiginformatie</h1>
+				<p>Verbruikte brandstof</p>
+				<canvas id="myChart1" height="250"></canvas>
+			</div>
+
+			<div class="grid-item box2">
+				<h1>Voertuigomgeving</h1>
+				<p>Afstand afgelegd over tijd</p>
+				<canvas id="myChart2"></canvas>
+			</div>
+
+			<div class="grid-item box3">
+				<h1>Voorraden</h1>
+				<p>Voorraden aan eten in het ruimteschip</p>
+				<canvas id="myChart3" height="250"></canvas>
+			</div>
+
+			<div class="grid-item box4">
+				<h1>Bemanning</h1>
+				<p>Bemanning op wacht</p>
+				<canvas id="myChart4" height="240"></canvas>
+			</div>
+
+		</div>
+
+<script type="text/javascript" src="script/script.js">
+		</script>
+
+	</body>
+</html>

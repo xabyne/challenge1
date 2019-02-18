@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet");
+
+body{
+/*	background-color: #e6ebf2;
+*/	background: linear-gradient(to right, black, #3c0059);
+	font-family: Titillium Web; 
+}
+
+.grid-item{
+	background-color: #ffffff;
+	padding: 10px;
+	padding-top: 5px;
+	padding-left: 20px;
+	margin: 10px;
+	box-shadow: 1px 1px 0px 0px #b7b7b7; 
+	border-radius: 8px;
+}
+
+.box1:hover{
+	background-color: #efe8f4;
+}
+
+.box2:hover{
+	background-color: #efe8f4;
+}
+
+.box3:hover{
+	background-color: #efe8f4;
+}
+
+.box4:hover{
+	background-color: #efe8f4;
+}
+
+h1{
+	color: black;
+	font-size: 20px;
+}
+
+p{
+	font-size: 12px;
+}
+
+#logo{
+	width: 70%;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	height: 1000px;
+
+	grid-template-areas:
+	"header"
+	"box1"
+	"box2"
+	"box3"
+	"box4";
+}
+
+.header{
+	grid-area: header;
+	padding-top: 8px;
+}
+
+.box1{
+	grid-area: box1;
+}
+
+.box2{
+	grid-area: box2;
+}
+
+.box3{
+	grid-area: box3;
+}
+
+.box4{
+	grid-area: box4;
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1023px){
+	.grid-container{
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+
+		grid-template-areas:
+		"header header"
+		"box1 box1"
+		"box2 box3"
+		"box4 box4";
+		}
+
+	h1{
+		font-size: 20px;
+	}
+
+	p{
+		font-size: 14px;
+	}
+
+	#logo{
+		width: 40%;
+	}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px){
+	.grid-container{
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+
+		grid-template-areas:
+		"header header"
+		"box1 box2"
+		"box3 box4";
+	}
+
+	h1{
+		font-size: 22px;
+	}
+
+	p{
+		font-size: 14px;
+	}
+
+	#logo{
+		width: 35%;
+	}
+}
+
+
+@media only screen and (min-width: 1366px){
+	.grid-container{
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		height: 300px;
+
+		grid-template-areas:
+		"header header header header"
+		"box1 box2 box3 box4"
+	}
+
+	h1{
+		font-size: 24px;
+	}
+
+	p{
+		font-size: 16px;
+	}
+
+	#logo{
+		width: 25%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
